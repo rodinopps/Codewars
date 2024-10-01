@@ -3,3 +3,6 @@
 Languages Used
 
 - Python
+
+
+Soon C and JS
