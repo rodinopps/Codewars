@@ -1,0 +1,5 @@
+def stringy(size):
+    string = ""
+    for i in range(size):
+        string += "10"
+    return string[:len(string) // 2]
