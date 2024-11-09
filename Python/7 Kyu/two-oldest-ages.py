@@ -1,6 +1,5 @@
 def two_oldest_ages(ages):
-    old1 = max(ages)
-    ages.remove(old1)
-    old2 = max(ages)
-    ages.remove(old2)
-    return [old2, old1]
+    big1 = max(ages)
+    ages.remove(big1)
+    big2 = max(ages)
+    return [big2, big1]
