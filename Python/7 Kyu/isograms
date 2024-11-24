@@ -1,0 +1,7 @@
+def is_isogram(string):
+    new = ""
+    check = True
+    for i in string.lower():
+        if i in new: check = False
+        else: new += i
+    return check
