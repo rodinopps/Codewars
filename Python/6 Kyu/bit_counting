@@ -1,0 +1,3 @@
+def count_bits(n):
+    binary = str(bin(n))
+    return binary.count("1")
