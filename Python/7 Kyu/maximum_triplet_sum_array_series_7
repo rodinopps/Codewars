@@ -1,0 +1,11 @@
+def max_tri_sum(numbers):
+    new = []
+    for i in numbers:
+        if i not in new:
+            new.append(i)
+    first = max(new)
+    new.remove(first)
+    second = max(new)
+    new.remove(second)
+    third = max(new)
+    return first + second + third
