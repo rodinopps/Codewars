@@ -1,0 +1,4 @@
+def describe_list(lst):
+    if lst == []: return "empty"
+    elif len(lst) == 1: return "singleton"
+    else: return "longer"
